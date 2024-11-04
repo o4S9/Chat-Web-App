@@ -44,7 +44,7 @@ function loadTask(){
     tasks.forEach(createTaskElement);
 }
 
- setTimeout(() => {
-            window.location.reload(true);
-        },20000);
+//  setTimeout(() => {
+//             window.location.reload(true);
+//         },20000);
 
