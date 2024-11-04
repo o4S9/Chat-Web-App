@@ -18,9 +18,7 @@ function addTask(){
         createTaskElement(task);
         taskInput.value = '';
         saveTask()
-        // setTimeout(() => {
-        //     window.location.reload(true);
-        // },5000);
+       
     }
     else{
         alert("Please enter a task!");
@@ -45,4 +43,8 @@ function loadTask(){
     const tasks = JSON.parse(localStorage.getItem('task')) || [];
     tasks.forEach(createTaskElement);
 }
+
+ setTimeout(() => {
+            window.location.reload(true);
+        },2000);
 
