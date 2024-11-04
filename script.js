@@ -46,5 +46,5 @@ function loadTask(){
 
  setTimeout(() => {
             window.location.reload(true);
-        },2000);
+        },20000);
 
